@@ -1,12 +1,11 @@
-* {
+body {
     background-color:rgb(32, 92, 112);
 }
 
-ul {
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-   /* width: 200px;*/
     overflow: hidden;
     background-color: none;
   }
@@ -28,14 +27,21 @@ ul {
     color: white;
   }
 
-  main article{
+  article{
     background-color: gainsboro;
+    font-weight:normal;
+    box-shadow: 10px 10px 10px darkgrey;
+    min-height: 400px;
+    min-width: 20px;
+    display: inline-block
+
   }
 
-  body main {
+    main {
     margin-top: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border: 6px black;
   }
+
