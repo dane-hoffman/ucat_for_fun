@@ -6,8 +6,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+   /* width: 200px;*/
+    overflow: hidden;
+    background-color: none;
+  }
+
+  li {
+    float:left;
   }
   
   li a {
@@ -19,6 +24,18 @@ ul {
   }
   
   li a:hover {
-    background-color: #555;
+    background-color: #b6cdd3;
     color: white;
+  }
+
+  main article{
+    background-color: gainsboro;
+  }
+
+  body main {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+
   }
